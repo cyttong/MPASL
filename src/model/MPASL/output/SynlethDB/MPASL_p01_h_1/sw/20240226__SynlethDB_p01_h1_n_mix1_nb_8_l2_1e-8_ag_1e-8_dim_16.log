@@ -1,0 +1,81 @@
+[INFO]  Namespace(Genem_orient=True, Genem_orient_kg_eh=True, Genem_orient_rela=True, HO_only=False, PS_O_ft=True, PS_W_ft=1, PS_only=False, SW=True, SW_stage=0, abla_exp=False, ablation='all', agg=' ', aggregator='sum', att_type='ur', attention_cast_st=False, batch_size=512, dataset='SynlethDB', dim=16, early_decrease_lr=1, early_stop=2, emb_update_mode='agg_attention', genem_agg_hop=0, genem_neighbor_rate=0, h0_att='st_att_h_set', h_hop=1, kge_weight=0.01, l2_agg_weight=1e-08, l2_weight=1e-08, load_pretrain_emb=False, log_name='SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16', lr=6e-05, ls_weight=1, model_select='KGCN', n_epochs=20, n_memory=64, n_mix_hop=1, neighbor_sample_size=8, new_load_data=True, p_hop=1, path=<path.Path_SW object at 0x7fc3437fce48>, save_default_model=False, save_final_model=True, save_model_name='SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16', save_record_genem_list=False, show_topk_mode=False, tolerance=2, top_k=False, update_genen_emb='transform_matrix', wide_deep=True)
+[INFO]  Parameters:genem_emb_matrix_STWS/genem_emb_matrix_STWS:0
+entity_emb_matrix_STWS/entity_emb_matrix_STWS:0
+relation_emb_matrix_STWS/relation_emb_matrix_STWS:0
+relation_emb_KGE_matrix_STWS/relation_emb_KGE_matrix_STWS:0
+enti_mlp_matrix0/transfer_matrix0:0
+enti_mlp_matrix0/transfer_bias0:0
+genem_mlp_matrix/genem_mlp_matrix:0
+genem_mlp_matrix/genem_mlp_bias:0
+transfer_agg_matrix0/transfer_agg_matrix0:0
+transfer_agg_matrix0/transfer_agg_bias0:0
+transfer_agg_matrix1/transfer_agg_matrix1:0
+transfer_agg_matrix1/transfer_agg_bias1:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_matrix:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_bias:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_wights/weights:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_bias/bias:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_mrh_wights/weights:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_mrh_bias/bias:0
+sequential/dense/kernel:0
+sequential/dense/bias:0
+sequential/dense_1/kernel:0
+sequential/dense_1/bias:0
+sequential/dense_2/kernel:0
+sequential/dense_2/bias:0
+beta1_power:0
+beta2_power:0
+genem_emb_matrix_STWS/genem_emb_matrix_STWS/Adam:0
+genem_emb_matrix_STWS/genem_emb_matrix_STWS/Adam_1:0
+entity_emb_matrix_STWS/entity_emb_matrix_STWS/Adam:0
+entity_emb_matrix_STWS/entity_emb_matrix_STWS/Adam_1:0
+relation_emb_matrix_STWS/relation_emb_matrix_STWS/Adam:0
+relation_emb_matrix_STWS/relation_emb_matrix_STWS/Adam_1:0
+relation_emb_KGE_matrix_STWS/relation_emb_KGE_matrix_STWS/Adam:0
+relation_emb_KGE_matrix_STWS/relation_emb_KGE_matrix_STWS/Adam_1:0
+enti_mlp_matrix0/transfer_matrix0/Adam:0
+enti_mlp_matrix0/transfer_matrix0/Adam_1:0
+enti_mlp_matrix0/transfer_bias0/Adam:0
+enti_mlp_matrix0/transfer_bias0/Adam_1:0
+genem_mlp_matrix/genem_mlp_matrix/Adam:0
+genem_mlp_matrix/genem_mlp_matrix/Adam_1:0
+genem_mlp_matrix/genem_mlp_bias/Adam:0
+genem_mlp_matrix/genem_mlp_bias/Adam_1:0
+transfer_agg_matrix0/transfer_agg_matrix0/Adam:0
+transfer_agg_matrix0/transfer_agg_matrix0/Adam_1:0
+transfer_agg_matrix0/transfer_agg_bias0/Adam:0
+transfer_agg_matrix0/transfer_agg_bias0/Adam_1:0
+transfer_agg_matrix1/transfer_agg_matrix1/Adam:0
+transfer_agg_matrix1/transfer_agg_matrix1/Adam_1:0
+transfer_agg_matrix1/transfer_agg_bias1/Adam:0
+transfer_agg_matrix1/transfer_agg_bias1/Adam_1:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_matrix/Adam:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_matrix/Adam_1:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_bias/Adam:0
+h_emb_genen_mlp_matrix/h_emb_genen_mlp_bias/Adam_1:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_wights/weights/Adam:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_wights/weights/Adam_1:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_bias/bias/Adam:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_bias/bias/Adam_1:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_mrh_wights/weights/Adam:0
+sumaggregator_mrh_matrix_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_0_0_mrh_wights/weights/Adam_1:0
+sequential/dense/kernel/Adam:0
+sequential/dense/kernel/Adam_1:0
+sequential/dense/bias/Adam:0
+sequential/dense/bias/Adam_1:0
+sequential/dense_1/kernel/Adam:0
+sequential/dense_1/kernel/Adam_1:0
+sequential/dense_1/bias/Adam:0
+sequential/dense_1/bias/Adam_1:0
+sequential/dense_2/kernel/Adam:0
+sequential/dense_2/kernel/Adam_1:0
+sequential/dense_2/bias/Adam:0
+sequential/dense_2/bias/Adam_1:0
+[INFO]  SW Parameters:genem_emb_matrix_STWS/genem_emb_matrix_STWS:0
+entity_emb_matrix_STWS/entity_emb_matrix_STWS:0
+relation_emb_matrix_STWS/relation_emb_matrix_STWS:0
+relation_emb_KGE_matrix_STWS/relation_emb_KGE_matrix_STWS:0
+[INFO]  epoch 0  train auc: 0.9588 acc: 0.8896 f1: 0.9145 aupr: 0.9759 eval auc: 0.9276 acc: 0.8475 f1: 0.8827  aupr: 0.9565 test auc: 0.9313 acc: 0.8519 f1: 0.8861 aupr: 0.9590
+[INFO]  epoch 1  train auc: 0.9621 acc: 0.8958 f1: 0.9198 aupr: 0.9779 eval auc: 0.9291 acc: 0.8482 f1: 0.8843  aupr: 0.9581 test auc: 0.9321 acc: 0.8529 f1: 0.8875 aupr: 0.9593
+[INFO]  epoch 2  train auc: 0.9653 acc: 0.8998 f1: 0.9221 aupr: 0.9797 eval auc: 0.9321 acc: 0.8529 f1: 0.8870  aupr: 0.9602 test auc: 0.9327 acc: 0.8560 f1: 0.8889 aupr: 0.9594
+[INFO]  epoch 3  train auc: 0.9680 acc: 0.9053 f1: 0.9269 aupr: 0.9813 eval auc: 0.9319 acc: 0.8520 f1: 0.8864  aupr: 0.9599 test auc: 0.9346 acc: 0.8571 f1: 0.8904 aupr: 0.9608

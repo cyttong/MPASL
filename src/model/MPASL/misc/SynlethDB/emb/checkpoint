@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/henu/PycharmProjects/newcyt/MPASL-main/src/model/MPASL/misc/SynlethDB/emb/_sw_para_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_parameter"
+all_model_checkpoint_paths: "/home/henu/PycharmProjects/newcyt/MPASL-main/src/model/MPASL/misc/SynlethDB/emb/_sw_para_SynlethDB_p01_h1_n_mix1_nb_8_l2_1e-8_ag_1e-8_dim_16_parameter"
